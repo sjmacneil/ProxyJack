@@ -1,6 +1,6 @@
-#ProxyMan (for Linux)
+#ProxyJack (for Linux)
 
-Author : Himanshu Shekhar < https://github.com/himanshushekharb16/ProxyMan/ >
+Forked from ProxyMan by Himanshu Shekhar < https://github.com/himanshushekharb16/ProxyMan/ >
 
 The version number is mentioned in the main.sh file.
 
@@ -37,3 +37,7 @@ Why this tool?
 The options for configuring proxy settings in desktop environment (as observed in distros as Debian, Ubuntu) set proxy for the Desktop Environment (technically speaking gsettings), but they were observed not work well for other locations as bash and apt.
 The major problem arises in the case of authenticated proxies, where the "Apply System Wide" option, does not sets up authentication for the proxy.
 This tool is a way of manually setting up proxy individually to Desktop Environment, Package Manager, and the Shell, i.e. gsettings, bash and apt.
+
+Why this fork?
+==============
+Some proxy environments don't play well with or support SOCKS proxies and ProxyMan didn't (as of the time of the initial fork) support ignoring SOCKS proxy configuration. If your needs differ, I suggest referring to ProxyMan.
