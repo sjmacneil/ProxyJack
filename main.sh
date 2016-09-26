@@ -185,8 +185,8 @@ configure_gsettings() {
 		gsettings set org.gnome.system.proxy.http port "$2"; 
 		gsettings set org.gnome.system.proxy.https host "'$1'"
 		gsettings set org.gnome.system.proxy.https port "$2"; 
-		gsettings set org.gnome.system.proxy.socks host "'$1'"
-		gsettings set org.gnome.system.proxy.socks port "$2"; 
+#		gsettings set org.gnome.system.proxy.socks host "'$1'"
+#		gsettings set org.gnome.system.proxy.socks port "$2";
 		gsettings set org.gnome.system.proxy.ftp host "'$1'"
 		gsettings set org.gnome.system.proxy.ftp port "$2"; 
 	else
@@ -196,8 +196,8 @@ configure_gsettings() {
 		gsettings set org.gnome.system.proxy.http port "$2"
 		gsettings set org.gnome.system.proxy.https host "'$7'"
 		gsettings set org.gnome.system.proxy.https port "$8"
-		gsettings set org.gnome.system.proxy.socks host "'$11'"
-		gsettings set org.gnome.system.proxy.socks port "$12"
+#		gsettings set org.gnome.system.proxy.socks host "'$11'"
+#		gsettings set org.gnome.system.proxy.socks port "$12"
 		gsettings set org.gnome.system.proxy.ftp host "'$9'"
 		gsettings set org.gnome.system.proxy.ftp port "$10"
 	fi
